@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+}
+
+nav {
+  background-color: grey;
+  height: 3em;
+  text-align: center;
+}
+
+h1, h2 {
+  background-color: rgb(199, 190, 190);
+}
+
+p {
+  background-color: whitesmoke;
+}
+
+section {
+  background-color: rgb(167, 166, 166);
+  font: 1em sans-serif;
+}
+
+footer {
+  background-color: grey;
+  height: 3em;
+  text-align: center;
+}
