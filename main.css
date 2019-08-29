@@ -50,8 +50,13 @@ li {
 }
 
 a {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 1% 8%;
   text-decoration: none;
   color: white;
+  text-align: center;
 }
 
 header {
