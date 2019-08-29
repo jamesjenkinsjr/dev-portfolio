@@ -1,7 +1,7 @@
-Headline: Hi, I'm James - a programmer with an eye for bugs and a fear of making 'em.
+Headline: Hi, I'm James - a programmer with a tester's eye for finding bugs and a healthy fear of making 'em.
 Bio: Full-stack programmer working out of sunny, swampy Gainesville, FL (Go GATORS!). 
 I've been attracted to technology in various forms my entire life, 
-and can't resist the urge to pull back the curtain to see how things work.
+and can't resist the urge to pull back the curtain to see how things work. 
 I love gaming, craft beer, exploring new cities, and am new to cycling! 
 As with my interests, my professional attitude is one of balance: 
 embrace challenges, learn from missteps, and remember to enjoy yourself along the way.
