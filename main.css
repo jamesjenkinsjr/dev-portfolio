@@ -10,6 +10,7 @@ body {
   color: #465866;
   text-align: center;
   line-height: 1.5;
+  margin: 0 2%;
 }
 
 main {
@@ -21,7 +22,7 @@ nav {
   bottom: 0;
   left: 0;
   right: 0;
-  margin: 0 2.2%;
+  margin: 0 2%;
   padding: 1% 0;
   background-color: #d2dfea;
 }
