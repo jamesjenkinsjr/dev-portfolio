@@ -1,3 +1,5 @@
+/* color palette (dark - light) #224a6b #465866 #7b99b1 #9ec5e6 #d2dfea */
+
 * {
   box-sizing: border-box;
 }
@@ -48,6 +50,12 @@ ul {
 .nav-bar > li {
   list-style-type: none;
   color: white;
+}
+
+.hero {
+  height: 150px;
+  border: 4px solid #d2dfea;
+  border-radius: 100%;
 }
 
 .skills-list {
