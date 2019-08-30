@@ -93,6 +93,12 @@ ul {
   height: 200px;
 }
 
+.project-tools {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+
 .contact-list-item {
   list-style-type: none;
   font-size: 16px;
@@ -142,5 +148,9 @@ a {
   .project-img {
     width: 500px;
     height: 350px;
+  }
+
+  .project-tools {
+    font-size: 36px;
   }
 }
