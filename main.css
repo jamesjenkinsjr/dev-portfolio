@@ -183,6 +183,15 @@ a {
 
   header {
     padding: 6% 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .hero {
+    height: 225px;
+    margin: 0 1%;
   }
 
   nav {
@@ -207,20 +216,8 @@ a {
     justify-content: space-evenly;
   }
 
-  /* .project-link > a {
-    font-size: 16px;
-  } */
-
-  /* i.material-icons {
-    font-size: 48px;
-  } */
-
   .project-img {
     width: 800px;
     height: 575px;
   }
-
-  /* .project-tools {
-    font-size: 48px;
-  } */
 }
