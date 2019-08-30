@@ -1,6 +1,4 @@
-- Labels for project languages/tools icons?
-- General spacing for a given project
-- a11y review styles
+- BUG: UX glitchy for back to top on mobile (fix or remove)
 
 
 CSS ideas?
