@@ -1,4 +1,4 @@
-/* color palette (dark - light) #224a6b #465866 #7b99b1 #9ec5e6 #d2dfea */
+/* color palette (dark - light) #224a6b #465866 #7b99b1 #9ec5e6 #d2dfea #ffffff */
 
 * {
   box-sizing: border-box;
@@ -24,10 +24,6 @@ nav {
   right: 0;
   margin: 0 2%;
   padding: 1% 0;
-  background-color: #d2dfea;
-}
-
-nav {
   background-color: #9ec5e6;
 }
 
@@ -136,7 +132,7 @@ a {
   padding-right: 2%;
 }
 
-@media screen and (min-width: 376px) {
+@media screen and (min-width: 520px) {
   main {
     margin-bottom: 7%;
   }
@@ -176,7 +172,7 @@ a {
   }
 }
 
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 1024px) {
   body {
     margin: 0;
   }
@@ -208,23 +204,23 @@ a {
   }
 
   .project-sources {
-    justify-content: space-between;
+    justify-content: space-evenly;
   }
 
-  .project-link > a {
+  /* .project-link > a {
     font-size: 16px;
-  }
+  } */
 
-  i.material-icons {
+  /* i.material-icons {
     font-size: 48px;
-  }
+  } */
 
   .project-img {
-    width: 1100px;
-    height: 850px;
+    width: 800px;
+    height: 575px;
   }
 
-  .project-tools {
+  /* .project-tools {
     font-size: 48px;
-  }
+  } */
 }
