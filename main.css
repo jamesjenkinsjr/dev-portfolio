@@ -145,7 +145,7 @@ i.scroll-top {
 }
 
 .hidden {
-  display: none!important;
+  display: none !important;
 }
 
 @media screen and (min-width: 520px) {
