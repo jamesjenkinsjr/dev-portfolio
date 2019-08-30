@@ -132,6 +132,22 @@ a {
   padding-right: 2%;
 }
 
+i.scroll-top {
+  position: fixed;
+  bottom: 10%;
+  right: 4%;
+  color: #224a6b;
+  background-color: white;
+  font-size: 24px;
+  border: 0px solid white;
+  border-radius: 100%;
+  box-shadow: 2px 2px 4px grey;
+}
+
+.hidden {
+  display: none!important;
+}
+
 @media screen and (min-width: 520px) {
   main {
     margin-bottom: 7%;
@@ -219,5 +235,10 @@ a {
   .project-img {
     width: 800px;
     height: 575px;
+  }
+
+  i.scroll-top {
+    font-size: 48px;
+    cursor: pointer;
   }
 }
