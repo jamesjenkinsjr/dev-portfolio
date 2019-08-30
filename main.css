@@ -139,6 +139,11 @@ a {
     font-size: 24px;
   }
 
+  .nav-bar > li > a {
+    flex-direction: column;
+    font-size: 12px;
+  }
+
   .contact-list-item {
     font-size: 24px;
   }
