@@ -2,7 +2,7 @@
   "name": "app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://jamesjenkinsjr.github.io/dev-portfolio/",
+  "homepage": "https://jamesjenkins.dev",
   "dependencies": {
     "gh-pages": "^2.1.1",
     "github-pages": "^3.0.2",
