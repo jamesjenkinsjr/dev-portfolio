@@ -5,21 +5,32 @@ import Home from './Home'
 import Contact from './Contact'
 import Projects from './Projects'
 
-function App() {
-  const state = {
-    location: 'projects',
+class App extends React.Component {
+  constructor() {
+    super()
+    this.state = {
+      location: 'home',
+    }
   }
 
-  // const handleNavigation
-  return (
-    <div className="App">
-      <Nav />
-      {state.location === 'home' ? <Home /> : null}
-      {state.location === 'contact' ? <Contact /> : null}
-      {state.location === 'projects' ? <Projects /> : null}
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    </div>
-  )
+  handleNavigation = (e, location) => {
+    e.preventDefault()
+    this.setState({
+      location: location,
+    })
+  }
+
+  render() {
+    return (
+      <div className="App">
+        <Nav handleNav={this.handleNavigation} />
+        {this.state.location === 'home' ? <Home /> : null}
+        {this.state.location === 'contact' ? <Contact /> : null}
+        {this.state.location === 'projects' ? <Projects /> : null}
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      </div>
+    )
+  }
 }
 
 export default App
