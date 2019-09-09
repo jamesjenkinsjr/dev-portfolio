@@ -10,7 +10,8 @@ const handleScrollBottom = function() {
   $(window).on('scroll', () => {
     let height = $(window).height()
     let scroll = $(window).scrollTop()
-    if (scroll > height) {
+    console.log(scroll)
+    if (scroll + 500 > height) {
       $('.scroll-top').removeClass('hidden')
     } else {
       $('.scroll-top').addClass('hidden')
