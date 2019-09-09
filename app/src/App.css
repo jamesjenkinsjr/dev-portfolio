@@ -194,6 +194,7 @@ i.scroll-top {
   }
 
   main {
+    margin-top: 8%;
     margin-bottom: 0;
   }
 
@@ -211,7 +212,9 @@ i.scroll-top {
   }
 
   nav {
-    position: static;
+    position: fixed;
+    bottom: unset;
+    top: 0;
     margin: 0;
   }
 
