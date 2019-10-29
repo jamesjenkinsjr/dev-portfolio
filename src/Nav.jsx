@@ -1,23 +1,24 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 export default function Nav(props) {
   return (
-    <nav role="navigation">
+      <nav role="navigation">
       <ul className="nav-bar">
         <li>
-          <a href="/" onClick={e => props.handleNav(e, 'home')}>
+          <Link to="/" >
             <i className="material-icons">home</i>Home
-          </a>
+          </Link>
         </li>
         <li>
-          <a href="/contacts" onClick={e => props.handleNav(e, 'contact')}>
+          <Link to="/contact" >
             <i className="material-icons">contact_mail</i>Contact
-          </a>
+          </Link>
         </li>
         <li>
-          <a href="/projects" onClick={e => props.handleNav(e, 'projects')}>
+          <Link to="/projects" >
             <i className="material-icons">code</i>Projects
-          </a>
+          </Link>
         </li>
       </ul>
     </nav>

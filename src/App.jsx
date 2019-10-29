@@ -1,4 +1,5 @@
 import React from 'react'
+import { Route, HashRouter } from 'react-router-dom'
 import './App.css'
 import Nav from './Nav'
 import Home from './Home'
@@ -49,12 +50,14 @@ class App extends React.Component {
 
   render() {
     return (
-      <div className="App">
-        <Nav handleNav={this.handleNavigation} />
-        {this.state.location === 'home' ? <Home /> : null}
-        {this.state.location === 'contact' ? <Contact /> : null}
-        {this.state.location === 'projects' ? <Projects /> : null}
-      </div>
+      <HashRouter basename="/">
+        <div className="App">
+          <Nav />
+          <Route exact path="/" component={Home} />
+          <Route exact path="/contact" component={Contact} />
+          <Route exact path="/projects" component={Projects} />
+        </div>
+      </HashRouter>
     )
   }
 }
