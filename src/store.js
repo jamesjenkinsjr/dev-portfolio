@@ -1,5 +1,4 @@
 import Bookmarker from './assets/Bookmarker-preview.png'
-import BetterBeer from './assets/BetterBeer-preview.png'
 import Huddle from './assets/Huddle-portal-desktop.png'
 
 const store = [
@@ -27,19 +26,6 @@ const store = [
       'devicon-html5-plain',
       'devicon-css3-plain-wordmark',
       'devicon-jquery-plain'
-    ]
-  },
-  {
-    title: 'BetterBeer',
-    description: 'Search for user-submitted deals on beer',
-    srcURL: 'https://github.com/jamesjenkinsjr/betterbeer-app',
-    liveURL: 'https://betterbeer.herokuapp.com/search',
-    img: BetterBeer,
-    techIcons: [
-      'devicon-html5-plain',
-      'devicon-css3-plain-wordmark',
-      "devicon-nodejs-plain",
-      "devicon-react-original"
     ]
   }
 ]
