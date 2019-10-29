@@ -3,14 +3,14 @@ import './App.css'
 import Nav from './Nav'
 import Home from './Home'
 import Contact from './Contact'
-import Projects from './Projects'
+import Projects from './ProjectList'
 import $ from 'jquery'
 
 const handleScrollBottom = function() {
   $(window).on('scroll', () => {
     let height = $(window).height()
     let scroll = $(window).scrollTop()
-    console.log(scroll)
+
     if (scroll + 500 > height) {
       $('.scroll-top').removeClass('hidden')
     } else {
