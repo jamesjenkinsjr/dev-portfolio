@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/static/css/main.60634802.chunk.css",
-    "main.js": "/static/js/main.a965878f.chunk.js",
-    "main.js.map": "/static/js/main.a965878f.chunk.js.map",
+    "main.js": "/static/js/main.741069d8.chunk.js",
+    "main.js.map": "/static/js/main.741069d8.chunk.js.map",
     "runtime~main.js": "/static/js/runtime~main.edc4bf8c.js",
     "runtime~main.js.map": "/static/js/runtime~main.edc4bf8c.js.map",
     "static/js/2.5ccff6e2.chunk.js": "/static/js/2.5ccff6e2.chunk.js",
     "static/js/2.5ccff6e2.chunk.js.map": "/static/js/2.5ccff6e2.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.4f5cd6aeeda455cb5e333d146cbdfa31.js": "/precache-manifest.4f5cd6aeeda455cb5e333d146cbdfa31.js",
+    "precache-manifest.d19be9321829125e5b05794c4c7524d3.js": "/precache-manifest.d19be9321829125e5b05794c4c7524d3.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.60634802.chunk.css.map": "/static/css/main.60634802.chunk.css.map",
-    "static/media/Anonygram-desktop.png": "/static/media/Anonygram-desktop.889b05ab.png",
-    "static/media/Huddle-portal-desktop.png": "/static/media/Huddle-portal-desktop.ba37fdc4.png",
+    "static/media/Anonygram-desktop.png": "/static/media/Anonygram-desktop.1207c343.png",
+    "static/media/Huddle-portal-desktop.png": "/static/media/Huddle-portal-desktop.f516e479.png",
     "static/media/hero-photo.png": "/static/media/hero-photo.31c66d1f.png",
     "static/media/syntrack-desktop.png": "/static/media/syntrack-desktop.d90950c4.png"
   }
