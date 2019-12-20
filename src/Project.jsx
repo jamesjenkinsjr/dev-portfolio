@@ -12,12 +12,12 @@ export default function Project(props) {
       <p>{props.description}</p>
       <ul className="project-sources">
         <li className="project-link">
-          <a href={props.srcURL}>
+          <a href={props.srcURL} rel="noopener noreferrer" target="_blank">
             <i className="material-icons">code</i>View Code
           </a>
         </li>
         <li className="project-link">
-          <a href={props.liveURL}>
+          <a href={props.liveURL} rel="noopener noreferrer" target="_blank">
             <i className="material-icons">visibility</i>View App
           </a>
         </li>

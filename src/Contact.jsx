@@ -15,12 +15,12 @@ export default function Contact() {
             </a>
           </li>
           <li className="contact-list-item">
-            <a href="https://linkedin.com/in/jamesgjenkinsjr/">
+            <a href="https://linkedin.com/in/jamesgjenkinsjr/" rel="noopener noreferrer" target="_blank">
               <i className="material-icons">people_alt</i>LinkedIn
             </a>
           </li>
           <li className="contact-list-item">
-            <a href="https://github.com/jamesjenkinsjr">
+            <a href="https://github.com/jamesjenkinsjr" rel="noopener noreferrer" target="_blank">
               <i className="material-icons">code</i>GitHub
             </a>
           </li>
